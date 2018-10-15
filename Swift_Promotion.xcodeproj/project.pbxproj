@@ -14,6 +14,8 @@
 		CB3FAA5B2174980200F9E53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3FAA592174980200F9E53B /* LaunchScreen.storyboard */; };
 		CB3FAA662174980200F9E53B /* Swift_PromotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FAA652174980200F9E53B /* Swift_PromotionTests.swift */; };
 		CB3FAA712174980200F9E53B /* Swift_PromotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FAA702174980200F9E53B /* Swift_PromotionUITests.swift */; };
+		CB3FAA7F2174993D00F9E53B /* IndexViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FAA7E2174993D00F9E53B /* IndexViewTableViewController.swift */; };
+		CB3FAA8121749FF900F9E53B /* DataCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3FAA8021749FF900F9E53B /* DataCatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CB3FAA6C2174980200F9E53B /* Swift_PromotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_PromotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3FAA702174980200F9E53B /* Swift_PromotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PromotionUITests.swift; sourceTree = "<group>"; };
 		CB3FAA722174980200F9E53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3FAA7E2174993D00F9E53B /* IndexViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewTableViewController.swift; sourceTree = "<group>"; };
+		CB3FAA8021749FF900F9E53B /* DataCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CB3FAA50217497FF00F9E53B /* AppDelegate.swift */,
+				CB3FAA8021749FF900F9E53B /* DataCatch.swift */,
 				CB3FAA52217497FF00F9E53B /* ViewController.swift */,
 				CB3FAA54217497FF00F9E53B /* Main.storyboard */,
 				CB3FAA572174980200F9E53B /* Assets.xcassets */,
 				CB3FAA592174980200F9E53B /* LaunchScreen.storyboard */,
 				CB3FAA5C2174980200F9E53B /* Info.plist */,
+				CB3FAA7E2174993D00F9E53B /* IndexViewTableViewController.swift */,
 			);
 			path = Swift_Promotion;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3FAA53217497FF00F9E53B /* ViewController.swift in Sources */,
+				CB3FAA7F2174993D00F9E53B /* IndexViewTableViewController.swift in Sources */,
 				CB3FAA51217497FF00F9E53B /* AppDelegate.swift in Sources */,
+				CB3FAA8121749FF900F9E53B /* DataCatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,13 +440,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78Y3XUWC7K;
+				DEVELOPMENT_TEAM = 5WT8F43JY9;
 				INFOPLIST_FILE = Swift_Promotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gerry.Swift-Promotion";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PoWeiLin.Swift-Cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,13 +459,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78Y3XUWC7K;
+				DEVELOPMENT_TEAM = 5WT8F43JY9;
 				INFOPLIST_FILE = Swift_Promotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gerry.Swift-Promotion";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PoWeiLin.Swift-Cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
