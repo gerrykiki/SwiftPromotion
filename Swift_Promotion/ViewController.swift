@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         let Number_Button_langh = (fullScreenSize.width - 50)/4
         
         
+        
         ResultLabel = UILabel(frame: CGRect(x: 0, y: 64, width: fullScreenSize.width * 0.8, height: 70))
         ResultLabel.center = CGPoint(x: self.view.center.x, y: (fullScreenSize.height - 40 - 4*Number_Button_langh)/2)
         ResultLabel.text = "Result"
